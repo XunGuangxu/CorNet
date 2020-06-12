@@ -27,6 +27,22 @@ Pretrained Word Embeddings in gensim format
 
 * [GloVe embeddings (840B,300d)](https://drive.google.com/file/d/1A_jGmpsq7dVAN0-eHZ3RZaPNL-ZdViIr/view?usp=sharing)
 
+## Run
+
+Preprocess (the EUR-Lex dataset is already tokenized in advance)
+```bash
+./scripts/preprocess_eurlex.sh
+```
+or (the other datasets need to be tokenized using NLTK)
+```bash
+./scripts/preprocess_others.sh
+```
+
+Train and evaluate
+```bash
+./scripts/run_models.sh
+```
+
 ## Baselines
 
 The codes for the baseline models in the paper are adapted from the following repositories: [XML-CNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), and [AttentionXML](https://github.com/yourh/AttentionXML).
