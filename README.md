@@ -45,4 +45,4 @@ Train and evaluate
 
 ## Baselines
 
-The codes for the baseline models in the paper are adapted from the following repositories: [XML-CNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), and [AttentionXML](https://github.com/yourh/AttentionXML).
+The codes for the baseline models are adapted from the following repositories: [XML-CNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), and [AttentionXML](https://github.com/yourh/AttentionXML).
