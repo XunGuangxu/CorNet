@@ -1,0 +1,26 @@
+name: BertXML
+
+model:
+  hidden_size: 300
+  n_aheads: 2
+  intermediate_size: 600
+  n_layers: 2
+  n_probes: 5
+  dropout: 0.1
+  src_max_len: 500
+  bottleneck_dim: 512
+  
+gpipe: flag
+
+train:
+  batch_size: 200
+  nb_epoch: 15
+  swa_warmup: 4
+
+valid:
+  batch_size: 200
+
+predict:
+  batch_size: 200
+
+path: /p/realai/guangxu/2020xmtc/deep_data/Wiki-500K/models

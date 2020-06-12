@@ -1,0 +1,20 @@
+name: CorNetXMLCNN
+
+model:
+  dynamic_pool_length: 8
+  bottleneck_dim: 512
+  num_filters: 128
+  dropout: 0.5
+
+train:
+  batch_size: 200
+  nb_epoch: 10
+  swa_warmup: 2
+
+valid:
+  batch_size: 200
+
+predict:
+  batch_size: 200
+
+path: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/models

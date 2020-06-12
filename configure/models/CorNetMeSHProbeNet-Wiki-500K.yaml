@@ -1,0 +1,25 @@
+name: CorNetMeSHProbeNet
+
+model:
+  hidden_size: 300
+  n_layers: 2
+  n_probes: 5
+  dropout: 0.5
+  bottleneck_dim: 512
+  cornet_dim: 100
+  n_cornet_blocks: 2
+  
+gpipe: flag
+
+train:
+  batch_size: 200
+  nb_epoch: 15
+  swa_warmup: 4
+
+valid:
+  batch_size: 200
+
+predict:
+  batch_size: 200
+
+path: /p/realai/guangxu/2020xmtc/deep_data/Wiki-500K/models

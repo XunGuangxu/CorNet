@@ -1,0 +1,22 @@
+name: XMLCNN
+
+model:
+  dynamic_pool_length: 8
+  bottleneck_dim: 512
+  num_filters: 128
+  dropout: 0.5
+  
+gpipe: flag
+
+train:
+  batch_size: 200
+  nb_epoch: 15
+  swa_warmup: 4
+
+valid:
+  batch_size: 200
+
+predict:
+  batch_size: 200
+
+path: /p/realai/guangxu/2020xmtc/deep_data/Wiki-500K/models

@@ -1,0 +1,22 @@
+name: AmazonCat-13K
+
+train:
+  texts: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/train_texts.npy
+  labels: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/train_labels.npy
+
+valid:
+  size: 4000
+
+test:
+  texts: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/test_texts.npy
+
+embedding:
+  emb_init: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/emb_init.npy
+
+output:
+  res: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/results
+
+labels_binarizer: /p/realai/guangxu/2020xmtc/deep_data/AmazonCat-13K/labels_binarizer
+
+model:
+  emb_size: 300
