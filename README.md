@@ -4,6 +4,7 @@ Correlation Networks for Extreme Multi-label Text Classification
 ## Prerequisites
 
 * python==3.6.3
+* pytorch==1.2.0
 * torchgpipe==0.0.5
 * click==7.0
 * ruamel.yaml==0.16.5
@@ -11,7 +12,6 @@ Correlation Networks for Extreme Multi-label Text Classification
 * scipy==1.2.1
 * scikit-learn==0.20.3
 * gensim==3.7.2
-* pytorch==1.2.0
 * nltk==3.2.4
 * tqdm==4.31.1
 * joblib==0.13.2
@@ -23,10 +23,10 @@ Correlation Networks for Extreme Multi-label Text Classification
 * [AmazonCat-13K](https://drive.google.com/file/d/11Gfs4sazeV6u_lhC0Iw_cvC9-kK9KiXf/view?usp=sharing)
 * [Wiki-500K](https://drive.google.com/file/d/1Hgx7RTtkJKLJePce3PvRyOTGBKQh3odP/view?usp=sharing)
 
-### Pretrained Word Embeddings
+### Pretrained Word Embeddings in gensim format
 
-* [Pretrained GloVe embeddings (840B,300d) in gensim format](https://drive.google.com/file/d/1A_jGmpsq7dVAN0-eHZ3RZaPNL-ZdViIr/view?usp=sharing)
+* [GloVe embeddings (840B,300d)](https://drive.google.com/file/d/1A_jGmpsq7dVAN0-eHZ3RZaPNL-ZdViIr/view?usp=sharing)
 
 ## Baselines
 
-The codes for the baseline models in the paper are adapted from the following repositories: [XMLCNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), [AttentionXML](https://github.com/yourh/AttentionXML).
+The codes for the baseline models in the paper are adapted from the following repositories: [XMLCNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), and [AttentionXML](https://github.com/yourh/AttentionXML).
