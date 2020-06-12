@@ -23,10 +23,10 @@ Correlation Networks for Extreme Multi-label Text Classification
 * [AmazonCat-13K](https://drive.google.com/file/d/11Gfs4sazeV6u_lhC0Iw_cvC9-kK9KiXf/view?usp=sharing)
 * [Wiki-500K](https://drive.google.com/file/d/1Hgx7RTtkJKLJePce3PvRyOTGBKQh3odP/view?usp=sharing)
 
-### Pretrained Word Embeddings in gensim format
+Pretrained Word Embeddings in gensim format
 
 * [GloVe embeddings (840B,300d)](https://drive.google.com/file/d/1A_jGmpsq7dVAN0-eHZ3RZaPNL-ZdViIr/view?usp=sharing)
 
 ## Baselines
 
-The codes for the baseline models in the paper are adapted from the following repositories: [XMLCNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), and [AttentionXML](https://github.com/yourh/AttentionXML).
+The codes for the baseline models in the paper are adapted from the following repositories: [XML-CNN](https://github.com/castorini/hedwig), [BERT](https://github.com/huggingface/transformers), and [AttentionXML](https://github.com/yourh/AttentionXML).
